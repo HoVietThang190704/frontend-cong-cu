@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type LabelProps = React.LabelHTMLAttributes<HTMLLabelElement> & {
   hint?: React.ReactNode;

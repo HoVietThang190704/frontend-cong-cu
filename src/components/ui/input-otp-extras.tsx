@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 import InputOTP, { InputOTPProps } from './input-otp';
 
 export type InputOTPExtrasProps = InputOTPProps & {

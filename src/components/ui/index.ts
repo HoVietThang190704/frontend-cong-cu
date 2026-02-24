@@ -145,6 +145,8 @@ export type { RadioGroupAdvancedProps } from './radio-group-advanced';
 export { default as Avatar } from './avatar';
 export type { AvatarProps } from './avatar';
 
+export { default as Icon } from './icon';
+
 export { default as Alert } from './alert';
 export type { AlertProps } from './alert';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type TooltipProps = React.HTMLAttributes<HTMLDivElement> & {
   content: React.ReactNode;

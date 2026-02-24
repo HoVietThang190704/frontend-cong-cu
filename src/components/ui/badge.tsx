@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type BadgeVariant = 'default' | 'success' | 'danger' | 'info' | 'alpha';
 export type BadgeSize = 'xs' | 'sm' | 'md' | 'lg' | number;

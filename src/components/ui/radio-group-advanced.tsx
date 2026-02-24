@@ -1,6 +1,6 @@
 "use client";
 import React, { useCallback } from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type RadioOption = { label: React.ReactNode; value: string };
 export type RadioGroupAdvancedProps = React.HTMLAttributes<HTMLDivElement> & {
