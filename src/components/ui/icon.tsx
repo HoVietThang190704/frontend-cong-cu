@@ -23,10 +23,10 @@ export default function Icon({
     src,
     ...props
 }: IconProps) {
-    const imageSrc = src || (name ? `/images/icons/${name}.svg` : "");
+    const imageSrc = src || (name ? `/images/icons/${name}.png` : "");
     if (!imageSrc) {
-    return null;
-  }
+      return null;
+    }
   const mergedClassName = cn(className);
   return (
     <Image 

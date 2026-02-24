@@ -1,5 +1,5 @@
 export const ICONS = {
-    LOGO: "logo",
+    LOGO: "Logo",
 } as const;
 
 export type IconName = typeof ICONS[keyof typeof ICONS];
