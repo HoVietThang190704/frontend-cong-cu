@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type AspectRatioProps = React.HTMLAttributes<HTMLDivElement> & {
   ratio?: number; // width / height

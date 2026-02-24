@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type Crumb = { label: string; href?: string };
 export type BreadcrumbProps = React.HTMLAttributes<HTMLElement> & {

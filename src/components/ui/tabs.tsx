@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type TabItem = { id: string; label: React.ReactNode; content: React.ReactNode };
 export type TabsProps = React.HTMLAttributes<HTMLDivElement> & {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type NavItem = { label: string; href?: string; children?: React.ReactNode };
 export type NavigationMenuProps = React.HTMLAttributes<HTMLElement> & {

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type TextareaExtrasProps = React.TextareaHTMLAttributes<HTMLTextAreaElement> & {
   maxChars?: number;

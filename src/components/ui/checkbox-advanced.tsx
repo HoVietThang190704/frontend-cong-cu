@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type CheckboxAdvancedProps = React.InputHTMLAttributes<HTMLInputElement> & {
   indeterminate?: boolean;

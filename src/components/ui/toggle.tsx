@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 export type ToggleProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   pressed?: boolean;

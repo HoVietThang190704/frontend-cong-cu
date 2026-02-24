@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
 

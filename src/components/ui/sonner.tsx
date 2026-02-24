@@ -1,6 +1,6 @@
 "use client";
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils/utils';
 
 type Toast = { id: string; message: React.ReactNode; duration?: number };
 
